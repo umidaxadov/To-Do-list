@@ -42,11 +42,50 @@
             
         </form>
         <div class="todo__info">
-            <div class="tod__total-tasks">
+            <div class="todo__total-tasks">
                 Total Tasks: <span>0</span>
             </div>
-            
+            <button 
+            class="todo__delete-all-button"
+            type="button">
+            Delete All
+            </button>
         </div>
+        <ul class="todo__list">
+            <li class="todo__item todo-item">
+                <input
+                class="todo-item__checkbox"
+                id="todo-1"
+                type="checkbox">
+                <label class="todo-item__label" for="todo-1">
+                    Todo 1
+                </label>
+                <button 
+                class="todo-item__delete-button"
+                type="button"
+                aria-label="Delete"
+                title="Delete">
+
+                </button>
+            </li>
+             <li class="todo__item todo-item">
+                <input
+                class="todo-item__checkbox"
+                id="todo-1"
+                type="checkbox">
+                <label class="todo-item__label" for="todo-1">
+                    Todo 1
+                </label>
+                <button 
+                class="todo-item__delete-button"
+                type="button"
+                aria-label="Delete"
+                title="Delete">
+
+                </button>
+            </li>
+        </ul>
+        <div class="todo__empty-message"></div>
     </div>
 </body>
 </html>
